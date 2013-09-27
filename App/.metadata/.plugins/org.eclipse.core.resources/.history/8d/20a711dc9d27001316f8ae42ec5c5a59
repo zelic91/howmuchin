@@ -1,0 +1,5 @@
+package com.thuongnh.howmuchin.util;
+
+public class ResizeAnimation extends Animation {
+
+}

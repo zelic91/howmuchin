@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tvFrom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from" />
+
+    <LinearLayout
+        android:id="@+id/lFrom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/currency_options"
+        android:orientation="vertical"
+        android:background="@color/currency_select_container" >
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/tvTo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from" />
+
+    <LinearLayout
+        android:id="@+id/lTo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/currency_options"
+        android:orientation="vertical"
+        android:background="@color/currency_select_container" >
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from" />
+    </LinearLayout>
+
+</LinearLayout>

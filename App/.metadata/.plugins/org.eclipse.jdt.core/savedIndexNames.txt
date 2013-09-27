@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/zelic/Projects/Android/HowMuchIn/App/.metadata/.plugins/org.eclipse.jdt.core
+2122367469.index
+856999057.index
+3763045012.index

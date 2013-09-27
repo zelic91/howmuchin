@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="currency_select_container">#CCC</color>
+    <color name="green_text">#3E8355</color>
+    <color name="dark_text">#312A26</color>
+    <color name="main_background">#E6DFCF</color>
+    
+</resources>
