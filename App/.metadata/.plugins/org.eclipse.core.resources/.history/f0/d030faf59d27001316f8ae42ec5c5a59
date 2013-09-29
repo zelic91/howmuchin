@@ -1,8 +1,0 @@
-package com.thuongnh.howmuchin.util;
-
-import android.view.animation.Animation;
-
-public class ResizeAnimation extends Animation {
-	
-
-}

@@ -1,8 +1,12 @@
 package com.thuongnh.howmuchin;
 
+import com.thuongnh.howmuchin.util.ResizeAnimation;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -25,9 +29,20 @@ public class MainActivity extends Activity {
         lFrom	= (LinearLayout)findViewById(R.id.lFrom);
         lTo		= (LinearLayout)findViewById(R.id.lTo);
         
+        int width = getWindow().getWindowManager().getDefaultDisplay().getWidth();
         
-        		
-        		
+        final ResizeAnimation anim = new ResizeAnimation(lFrom, width, 0, width, 500);
+        anim.setDuration(300);
+        lFrom.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				lFrom.startAnimation(anim);
+				
+			}
+		});
+        
+        
     }
 
 
